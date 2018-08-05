@@ -28,11 +28,10 @@ node bamazonCustomer.js
 ```CTRL + C
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
 
 1.
 ``` node bamazonCustomer.js
