@@ -25,8 +25,8 @@ npm install inquirer
 node bamazonCustomer.js
 ```
 -To exit the App
-```CTRL + C
-```
+CTRL + C
+
 
 
 
