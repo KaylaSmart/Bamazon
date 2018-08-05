@@ -1,6 +1,6 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
-var Table= require("cli-table");
+// var Table= require("cli-table");
 
 // create the connection information for the sql database
 var connection = mysql.createConnection({
@@ -57,26 +57,26 @@ function start() {
   
 
 
-function displayTable() {
-  //show all ids, names, and products from database.
-  connection.query('SELECT * FROM Products', function(error, res ){
-      if (error) { console.log(error) };
-      //New instance of our constructor
-      var productTable = new Table({
-          //declare the value categories
-          head: ['Item ID', 'Product Name', 'Department', 'Price', 'Quantity'],
-          //set widths to scale
-          colWidths: [10, 30, 18, 10, 14]
-      });
-      //for each row of the loop
-      for (i = 0; i < res.length; i++) {
-          //push data to table
-          productTable.push(
-              [res[i].item_id, res[i].product_name, res[i].department_name, res[i].Price, res[i].stock_quantitiy]
-          );
-      }
-    });
-}
+// function displayTable() {
+//   //show all ids, names, and products from database.
+//   connection.query('SELECT * FROM Products', function(error, res ){
+//       if (error) { console.log(error) };
+//       //New instance of our constructor
+//       var productTable = new Table({
+//           //declare the value categories
+//           head: ['Item ID', 'Product Name', 'Department', 'Price', 'Quantity'],
+//           //set widths to scale
+//           colWidths: [10, 30, 18, 10, 14]
+//       });
+//       //for each row of the loop
+//       for (i = 0; i < res.length; i++) {
+//           //push data to table
+//           productTable.push(
+//               [res[i].item_id, res[i].product_name, res[i].department_name, res[i].Price, res[i].stock_quantitiy]
+//           );
+//       }
+//     });
+// }
 
 
 
