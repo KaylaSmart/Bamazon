@@ -1,14 +1,10 @@
 # Bamazon
 A Prime Web Store Application 
 
-# Project Title
-
-One Paragraph of project description goes here
 
 ## Getting Started
 
-The Bamazon CLI applicatiomn was designed to emulate a webstore , where the user can view the inventory, prices, stocks and 
-succesfully copete a pishchar
+The Bamazon CLI application was designed to emulate a webstore , where the user can view the inventory, prices,  and current stock , the user can then succesfully complete a purchase from the store
 
 ### What You WIl Need  ( Installing)
 
