@@ -159,12 +159,4 @@ function selectItem(){
 
 
 
- //get the info of the chosenproduct
-      // var chosenID = answer.choice;
-      // var chosenProduct = res[chosenID];
-     
 
-      //   if( chosenID === res[i].item_id){
-      //     console.log("you have selected:" + chosenProduct.product_name);
-          
-      //   }
